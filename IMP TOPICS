@@ -1,0 +1,87 @@
+As a fresher preparing for interviews focused on **React**, there are several key topics you should cover. Here are the most important ones:
+
+### 1. **React Basics**
+   - **Components**: Functional vs. Class Components
+   - **JSX**: How JSX works, and how it differs from HTML
+   - **Props**: Passing data to components and understanding `props.children`
+   - **State**: Understanding state management and the `useState` hook
+   - **Lifecycle Methods**: In class components and their equivalent hooks (`useEffect`)
+
+### 2. **Hooks**
+   - **useState**: Managing state in functional components
+   - **useEffect**: Handling side effects (e.g., API calls, subscriptions)
+   - **useContext**: Sharing state between components without props drilling
+   - **Custom Hooks**: Writing your own reusable hooks
+   - **useRef**: Managing references and DOM elements
+
+### 3. **Component Lifecycle**
+   - Differences between **mounting**, **updating**, and **unmounting**
+   - Hooks to manage lifecycle: `useEffect`, `useLayoutEffect`, etc.
+   - Class component lifecycle methods: `componentDidMount`, `componentDidUpdate`, `componentWillUnmount`
+
+### 4. **State Management**
+   - **Lifting State Up**: Sharing state across multiple components
+   - **Context API**: When and how to use it for global state
+   - **Redux** (important for many companies): Basic concepts like store, actions, reducers, middleware (thunk, saga)
+   - **React Query** or other state management libraries (for data fetching and caching)
+
+### 5. **Routing**
+   - **React Router**: Basics of routing in React (history, `BrowserRouter`, `Link`, `Switch`, `Route`, `Redirect`)
+   - Dynamic routing, route parameters, nested routes
+
+### 6. **Forms Handling**
+   - Controlled vs. Uncontrolled Components
+   - Handling forms with `useState`, validation, and submitting form data
+   - Libraries like **Formik** or **React Hook Form** (often used in industry)
+
+### 7. **Event Handling**
+   - Handling events like `onClick`, `onChange`, etc.
+   - Event handling in class components vs functional components
+
+### 8. **Optimization Techniques**
+   - **Memoization**: `React.memo()`, `useMemo()`, `useCallback()` to prevent unnecessary re-renders
+   - **Virtual DOM**: How React's reconciliation process works
+   - **Code Splitting**: Using **React.lazy()** and **Suspense** for dynamic imports
+
+### 9. **Error Boundaries**
+   - Handling errors in React using Error Boundaries (for class components)
+   - Alternative error handling strategies for functional components
+
+### 10. **Styling**
+   - CSS-in-JS solutions like **Styled Components**, **Emotion**
+   - **CSS Modules**, plain CSS, **SASS**
+   - Component-level and global styling approaches
+
+### 11. **Testing**
+   - Basics of testing React components
+   - Unit testing with **Jest** and **React Testing Library**
+   - Snapshot testing and testing component behavior
+
+### 12. **Performance Optimization**
+   - Preventing unnecessary re-renders
+   - Lazy loading components
+   - Optimizing API calls and minimizing re-renders with `useMemo()` and `useCallback()`
+   - Tools like React DevTools for performance profiling
+
+### 13. **React DevTools**
+   - How to use it for debugging and profiling
+
+### 14. **API Integration**
+   - **Fetching Data**: Using `fetch` or **Axios** with React
+   - Understanding how to handle loading states, errors, and conditional rendering
+   - Handling promises, async/await patterns
+
+### 15. **Common Patterns**
+   - **Higher-Order Components (HOCs)**: What they are and how to use them
+   - **Render Props**: Sharing code between components with render props pattern
+   - **Portals**: Rendering children into a different DOM subtree
+   - **Controlled vs Uncontrolled Components**
+
+### 16. **Miscellaneous**
+   - Key attributes and list rendering (`.map()`)
+   - Fragments: `<>` and `<React.Fragment>`
+   - PropTypes and default props for type-checking
+
+---
+
+For a frontend role, your knowledge of tools like **Webpack**, **Babel**, and the ability to handle **responsive design** using **CSS** or frameworks like **Tailwind** or **Bootstrap** may also come up in interviews.
