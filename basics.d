@@ -15,3 +15,28 @@ const App = () => {
 }
 
 export default App
+
+// use of onClick 
+
+import React from 'react'
+
+const App = () => {
+  const name="rahuraj";
+   const a =10;
+    
+   const abc= ()=>{
+    console.log("hello")
+   }
+   abc();
+
+  return (
+    <>
+    <h1>hello {name}</h1>
+    <h2>ek hi tag return hoga</h2>
+    <h3>print constent {a}</h3>
+    <button onClick={abc}>Changae User</button>
+    </>
+  )
+}
+
+export default App
