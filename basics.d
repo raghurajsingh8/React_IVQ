@@ -40,3 +40,5 @@ const App = () => {
 }
 
 export default App
+
+HAME DOM KE SATH INTREcat nhi krna hai hme variable value change rne ke liyae react kp bolna hai react krega kyoki ye changes console pr to ho jayenge lekin frontend pr nhi hoga 
